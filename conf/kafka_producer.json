@@ -1,0 +1,10 @@
+{
+  "bootstrap.servers": "localhost:9092",
+  "queue.buffering.max.messages": 1000000,
+  "queue.buffering.max.ms" : 20,
+  "batch.num.messages": 500,
+  "default.topic.config": {"acks": "all"},
+  "socket.timeout.ms": 100,
+  "api.version.request": "false",
+  "broker.version.fallback": "0.9.0"
+}
